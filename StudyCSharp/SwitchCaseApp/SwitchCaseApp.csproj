@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0F00A86F-5180-44F4-8B1B-C1AE63360598}</ProjectGuid>
+    <ProjectGuid>{254C9BBE-8658-447F-9D82-873CC149BFC1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HelloApp</RootNamespace>
-    <AssemblyName>HelloApp</AssemblyName>
+    <RootNamespace>SwitchCaseApp</RootNamespace>
+    <AssemblyName>SwitchCaseApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="enumApp.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
