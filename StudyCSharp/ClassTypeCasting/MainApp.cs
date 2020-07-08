@@ -34,12 +34,17 @@ namespace ClassTypeCasting
 	{
 		static void Main(string[] args)
 		{
+			// 자식 클래스를 부모 클래스로 형식으로 생성한다.
 			Mammal mammal = new Dog();
 			Dog dog;
 
+			// is -> 형변환이 가능할 경우 true, 불가능할 경우 false를 반환
 			if(mammal is Dog)
 			{
-				dog = mammal as Dog;                    // 클래스 사이의 형 변환은 as를 쓰는 것이 낫다
+				// 클래스의 캐스팅(형변환)을 as를 사용하여 한다.
+				// Dog는 Mammal을 상속받은 자식 클래스이다.
+				// mammal as Dog는 (Dog)mammal 과 같은 의미이지만 (Dog)mammal로 사용할 경우 에러가 날 수 있다.
+				dog = mammal as Dog;                    
 				dog.Bark();
 			}
 
