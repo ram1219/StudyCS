@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Interface
 {
-	// 구현이 없고 선언만 있다
+	// Interface -> 구현이 없고 선언만 있다
 	interface ILogger
 	{
 		void WriteLog(string message);

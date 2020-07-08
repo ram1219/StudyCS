@@ -43,6 +43,7 @@ namespace MultiInterfaceInheritance
 			FlyingCar car = new FlyingCar();
 			car.Run();
 			car.Fly();
+			car.Company = "현대";
 
 			IRunnable runnable = car as IRunnable;
 			runnable.Run();
